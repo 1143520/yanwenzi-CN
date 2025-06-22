@@ -11,8 +11,7 @@ function Footer(props) {
 
       {/* add github icon and link */}
       <a
-        href="
-      https://github.com/Sushipie/kaomoji-pedia"
+        href="https://github.com/1143520/yanwenzi-CN"
         target="_blank"
         rel="noreferrer"
       >
