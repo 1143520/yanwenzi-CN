@@ -22,8 +22,7 @@ function KaomojiCard(props) {
       style={{ backgroundColor: backgroundColor }}
     >
       <div className="card-body">
-        <h5 className="card-title kaomoji-char">{props.kaomoji}</h5>
-        <p className="card-text">{copied ? "已复制！" : null}</p>
+        <h5 className="card-title kaomoji-char">{copied ? "已复制！" : props.kaomoji}</h5>
       </div>
     </div>
   );
